@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #solar {
+        height: 98vh;
+        width: 99vw;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-image: url("https://www.smorescience.com/wp-content/uploads/2023/10/Untitled-design-2-1.jpg");
+        background-size: cover;
+      }
+
+      #sun {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-image: url("https://static.vecteezy.com/system/resources/thumbnails/049/731/430/small_2x/the-sun-s-fiery-surface-a-celestial-ball-of-plasma-with-a-transparent-background-png.png");
+        background-size: contain;
+      }
+
+      #circle {
+        height: 150px;
+        width: 150px;
+        position: absolute;
+        animation: rotate 5s linear 0s infinite normal;
+        border-radius: 50%;
+        border: 1px solid rgb(230, 239, 236);
+      }
+
+
+      @keyframes rotate {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+      #mercury {
+        height: 25px;
+        width: 25px;
+        border: 2px solid gray;
+        background-image: url("https://img.magnific.com/premium-photo/photo-mercury-planet-isolated-white-background_1077802-133634.jpg?semt=ais_hybrid&w=740&q=80");
+        border-radius: 50%;
+        position: relative;
+        top: 100px;
+        border: 1px solid rgb(228, 236, 232);
+        background-size: cover;
+      }
+
+        #circle1 {
+        height: 70px;
+        width: 70px;
+        position: absolute;
+        animation: rotate 8s linear 0s infinite normal;
+        border-radius: 50%;
+        border: 1px solid rgb(238, 235, 235);
+      }
+
+      #venus{
+        height: 20px;
+        width: 20px;
+        border: 1px solid rgb(246, 241, 241);
+        background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/93/Venus_globe_-_transparent_background.png");
+        border-radius: 50%;
+        position: absolute;
+        top: 55px;
+        border: 1px solid rgb(245, 242, 242);
+        background-size: contain;
+      }
+              #circle2 {
+        height: 220px;
+        width: 220px;
+        position: absolute;
+        animation: rotate 7s linear 0s infinite normal;
+        border-radius: 50%;
+        border: 1px solid rgb(234, 231, 238);
+      }
+
+
+            #earth{
+        height: 25px;
+        width: 25px;
+        border: 2px solid gray;
+        background-image:url("https://i.pinimg.com/736x/40/07/10/4007102c8873d11ab3e57cec889c6b15.jpg");
+        border-radius: 50%;
+        position: absolute;
+        top: 150px;
+        border: 1px solid rgb(230, 225, 227);
+        background-size: contain;
+      }
+      #circle3 {
+        height: 300px;
+        width: 300px;
+        position: absolute;
+        animation: rotate 9s linear 0s infinite normal;
+        border-radius: 50%;
+        border: 1px solid rgb(238, 235, 243);
+      }
+
+
+            #moon{
+        height: 17px;
+        width: 17px;
+        border: 2px solid gray;
+        background-image:url("https://img.magnific.com/free-photo/beautiful-glowing-gray-full-moon_181624-59870.jpg?semt=ais_hybrid&w=740&q=80");
+        border-radius: 50%;
+        position: absolute;
+        top: 190px;
+        border: 1px solid rgb(244, 244, 245);
+        background-size: contain;
+      }
+            #circle4 {
+        height: 370px;
+        width: 370px;
+        position: absolute;
+        animation: rotate 9s linear 0s infinite normal;
+        border-radius: 50%;
+        border: 1px solid rgb(240, 238, 243);
+      }
+
+
+            #mars{
+        height: 17px;
+        width: 17px;
+        border: 2px solid gray;
+        background-image:url("https://e7.pngegg.com/pngimages/337/664/png-clipart-mars-mars-thumbnail.png");
+        border-radius: 50%;
+        position: absolute;
+        top: 200px;
+        border: 1px solid rgb(236, 233, 240);
+        background-size: contain;
+      }
+      #circle5 {
+        height: 450px;
+        width: 450px;
+        position: absolute;
+        animation: rotate 11s linear 0s infinite normal;
+        border-radius: 50%;
+        border: 1px solid rgb(211, 210, 212);
+      }
+
+
+            #jupiter{
+        height: 17px;
+        width: 17px;
+        border: 2px solid gray;
+        background-image:url("https://upload.wikimedia.org/wikipedia/commons/e/e1/Jupiter_%28transparent%29.png");
+        border-radius: 50%;
+        position: absolute;
+        top: 290px;
+        border: 1px solid rgb(216, 215, 218);
+        background-size: contain;
+      }
+            #circle6 {
+        height: 520px;
+        width: 520px;
+        position: absolute;
+        animation: rotate 11s linear 0s infinite normal;
+        border-radius: 50%;
+        border: 1px solid rgb(211, 210, 212);
+      }
+        #saturn{
+        height: 17px;
+        width: 17px;
+        border: 2px solid gray;
+        background-image:url("https://img.magnific.com/free-psd/stunning-3d-render-ringed-planet-celestial-body-cosmic-wonder_191095-79308.jpg?semt=ais_hybrid&w=740&q=80");
+        border-radius: 50%;
+        position: absolute;
+        top: 290px;
+        border: 1px solid rgb(216, 215, 218);
+        background-size: contain;
+      }
+      
+  
+
+    </style>
+  </head>
+  <body>
+    <div id="solar">
+      <div id="circle">
+        <div id="mercury"></div>
+      </div>
+      <div id="circle1">
+        <div id="venus"></div>
+      </div>
+    <div id="circle2">
+        <div id="earth"></div>
+      </div>
+        <div id="circle3">
+        <div id="moon"></div>
+
+      </div>
+      <div id="circle4">
+        <div id="mars"></div>
+
+      </div>
+      <div id="circle5">
+        <div id="jupiter"></div>
+
+      </div>
+      <div id="circle6">
+        <div id="saturn"></div>
+      </div>
+
+
+      <div id="sun"></div>
+    </div>
+  </body>
+</html>
