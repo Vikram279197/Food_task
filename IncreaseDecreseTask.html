@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>0</h1>
+    <button onclick="fun1()">Increse</button>
+    <button onclick="fun2()">Decrese</button>
+
+
+    <script>
+        let count = 0
+        let btn=document.querySelector("h1")
+        function fun1(){
+            count=count+1
+            btn.innerHTML=count
+            btn.style.color=count>0 ? "green" : "black"
+        }
+        function fun2(){
+            count=count-1
+            btn.innerHTML=count
+            btn.style.color=count<0 ? "red" : "green"
+        }
+
+    </script>
+</body>
+</html>
